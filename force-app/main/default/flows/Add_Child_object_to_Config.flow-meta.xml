@@ -376,7 +376,7 @@
         </connector>
         <fields>
             <name>cmp_AddFilterCriteria</name>
-            <extensionName>addFilterToChildObject</extensionName>
+            <extensionName>c:addFilterToChildObject</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>childObjectApiName</name>
@@ -473,7 +473,7 @@
         </connector>
         <fields>
             <name>cmp_Select_Apex_Class</name>
-            <extensionName>selectApexRecordProvider</extensionName>
+            <extensionName>c:selectApexRecordProvider</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
@@ -498,7 +498,7 @@
         </connector>
         <fields>
             <name>cmp_selectObjectColor</name>
-            <extensionName>selectObjectThemeColor</extensionName>
+            <extensionName>c:selectObjectThemeColor</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
