@@ -523,7 +523,7 @@
         </connector>
         <fields>
             <name>lwc_progress_1</name>
-            <extensionName>addChildObjectProgressBar</extensionName>
+            <extensionName>c:addChildObjectProgressBar</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>currentStep</name>
@@ -536,7 +536,7 @@
         </fields>
         <fields>
             <name>lwc_get_object_name</name>
-            <extensionName>getObjectNameFromConfig</extensionName>
+            <extensionName>c:getObjectNameFromConfig</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>recordId</name>
@@ -567,7 +567,7 @@
         </connector>
         <fields>
             <name>lwc_progress_2</name>
-            <extensionName>addChildObjectProgressBar</extensionName>
+            <extensionName>c:addChildObjectProgressBar</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>currentStep</name>
@@ -580,7 +580,7 @@
         </fields>
         <fields>
             <name>lwc_select_child</name>
-            <extensionName>selectChildObject</extensionName>
+            <extensionName>c:selectChildObject</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>objectApiName</name>
@@ -619,7 +619,7 @@
         </connector>
         <fields>
             <name>lwc_progress_3</name>
-            <extensionName>addChildObjectProgressBar</extensionName>
+            <extensionName>c:addChildObjectProgressBar</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>currentStep</name>
@@ -632,7 +632,7 @@
         </fields>
         <fields>
             <name>lwc_title_field</name>
-            <extensionName>selectFieldsForConfig</extensionName>
+            <extensionName>c:selectFieldsForConfig</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>childObjectApiName</name>
@@ -715,7 +715,7 @@
         </connector>
         <fields>
             <name>lwc_progress_4</name>
-            <extensionName>addChildObjectProgressBar</extensionName>
+            <extensionName>c:addChildObjectProgressBar</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>currentStep</name>
@@ -728,7 +728,7 @@
         </fields>
         <fields>
             <name>lwc_date_field</name>
-            <extensionName>selectFieldsForConfig</extensionName>
+            <extensionName>c:selectFieldsForConfig</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>childObjectApiName</name>
@@ -801,7 +801,7 @@
         </connector>
         <fields>
             <name>lwc_progress_5</name>
-            <extensionName>addChildObjectProgressBar</extensionName>
+            <extensionName>c:addChildObjectProgressBar</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>currentStep</name>
@@ -814,7 +814,7 @@
         </fields>
         <fields>
             <name>lwc_display_fields</name>
-            <extensionName>selectFieldsForConfig</extensionName>
+            <extensionName>c:selectFieldsForConfig</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>childObjectApiName</name>
@@ -887,7 +887,7 @@
         </connector>
         <fields>
             <name>lwc_progress_6</name>
-            <extensionName>addChildObjectProgressBar</extensionName>
+            <extensionName>c:addChildObjectProgressBar</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>currentStep</name>
@@ -905,7 +905,7 @@
         </fields>
         <fields>
             <name>lwc_icon_name</name>
-            <extensionName>objectIconSelector</extensionName>
+            <extensionName>c:objectIconSelector</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
@@ -927,7 +927,7 @@
         <allowPause>false</allowPause>
         <fields>
             <name>lwc_progress_8</name>
-            <extensionName>addChildObjectProgressBar</extensionName>
+            <extensionName>c:addChildObjectProgressBar</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>currentStep</name>
@@ -959,7 +959,7 @@
         </connector>
         <fields>
             <name>lwc_progress_7</name>
-            <extensionName>addChildObjectProgressBar</extensionName>
+            <extensionName>c:addChildObjectProgressBar</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>currentStep</name>
@@ -972,7 +972,7 @@
         </fields>
         <fields>
             <name>lwc_confirmation</name>
-            <extensionName>selectFieldsForConfig</extensionName>
+            <extensionName>c:selectFieldsForConfig</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>childObjectApiName</name>
@@ -1062,7 +1062,7 @@
         <allowPause>false</allowPause>
         <fields>
             <name>lwc_progress_7b</name>
-            <extensionName>addChildObjectProgressBar</extensionName>
+            <extensionName>c:addChildObjectProgressBar</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>currentStep</name>
@@ -1094,7 +1094,7 @@
         </connector>
         <fields>
             <name>lwc_progress_9</name>
-            <extensionName>addChildObjectProgressBar</extensionName>
+            <extensionName>c:addChildObjectProgressBar</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>currentStep</name>
@@ -1107,7 +1107,7 @@
         </fields>
         <fields>
             <name>lwc_external_key_field</name>
-            <extensionName>selectFieldsForConfig</extensionName>
+            <extensionName>c:selectFieldsForConfig</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>childObjectApiName</name>
@@ -1185,7 +1185,7 @@
         </fields>
         <fields>
             <name>set_external_key</name>
-            <extensionName>externalKeyField</extensionName>
+            <extensionName>c:externalKeyField</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
@@ -1215,7 +1215,7 @@
         </fields>
         <fields>
             <name>cmp_Verify_apex_class</name>
-            <extensionName>verifyApexProvider</extensionName>
+            <extensionName>c:verifyApexProvider</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>selectedApexClass</name>
