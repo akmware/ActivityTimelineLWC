@@ -376,7 +376,7 @@
         </connector>
         <fields>
             <name>cmp_AddFilterCriteria</name>
-            <extensionName>timeline:addFilterToChildObject</extensionName>
+            <extensionName>addFilterToChildObject</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>childObjectApiName</name>
@@ -473,7 +473,7 @@
         </connector>
         <fields>
             <name>cmp_Select_Apex_Class</name>
-            <extensionName>timeline:selectApexRecordProvider</extensionName>
+            <extensionName>selectApexRecordProvider</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
@@ -498,7 +498,7 @@
         </connector>
         <fields>
             <name>cmp_selectObjectColor</name>
-            <extensionName>timeline:selectObjectThemeColor</extensionName>
+            <extensionName>selectObjectThemeColor</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
@@ -523,7 +523,7 @@
         </connector>
         <fields>
             <name>lwc_progress_1</name>
-            <extensionName>timeline:addChildObjectProgressBar</extensionName>
+            <extensionName>addChildObjectProgressBar</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>currentStep</name>
@@ -536,7 +536,7 @@
         </fields>
         <fields>
             <name>lwc_get_object_name</name>
-            <extensionName>timeline:getObjectNameFromConfig</extensionName>
+            <extensionName>getObjectNameFromConfig</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>recordId</name>
@@ -567,7 +567,7 @@
         </connector>
         <fields>
             <name>lwc_progress_2</name>
-            <extensionName>timeline:addChildObjectProgressBar</extensionName>
+            <extensionName>addChildObjectProgressBar</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>currentStep</name>
@@ -580,7 +580,7 @@
         </fields>
         <fields>
             <name>lwc_select_child</name>
-            <extensionName>timeline:selectChildObject</extensionName>
+            <extensionName>selectChildObject</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>objectApiName</name>
@@ -619,7 +619,7 @@
         </connector>
         <fields>
             <name>lwc_progress_3</name>
-            <extensionName>timeline:addChildObjectProgressBar</extensionName>
+            <extensionName>addChildObjectProgressBar</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>currentStep</name>
@@ -632,7 +632,7 @@
         </fields>
         <fields>
             <name>lwc_title_field</name>
-            <extensionName>timeline:selectFieldsForConfig</extensionName>
+            <extensionName>selectFieldsForConfig</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>childObjectApiName</name>
@@ -715,7 +715,7 @@
         </connector>
         <fields>
             <name>lwc_progress_4</name>
-            <extensionName>timeline:addChildObjectProgressBar</extensionName>
+            <extensionName>addChildObjectProgressBar</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>currentStep</name>
@@ -728,7 +728,7 @@
         </fields>
         <fields>
             <name>lwc_date_field</name>
-            <extensionName>timeline:selectFieldsForConfig</extensionName>
+            <extensionName>selectFieldsForConfig</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>childObjectApiName</name>
@@ -801,7 +801,7 @@
         </connector>
         <fields>
             <name>lwc_progress_5</name>
-            <extensionName>timeline:addChildObjectProgressBar</extensionName>
+            <extensionName>addChildObjectProgressBar</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>currentStep</name>
@@ -814,7 +814,7 @@
         </fields>
         <fields>
             <name>lwc_display_fields</name>
-            <extensionName>timeline:selectFieldsForConfig</extensionName>
+            <extensionName>selectFieldsForConfig</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>childObjectApiName</name>
@@ -887,7 +887,7 @@
         </connector>
         <fields>
             <name>lwc_progress_6</name>
-            <extensionName>timeline:addChildObjectProgressBar</extensionName>
+            <extensionName>addChildObjectProgressBar</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>currentStep</name>
@@ -905,7 +905,7 @@
         </fields>
         <fields>
             <name>lwc_icon_name</name>
-            <extensionName>timeline:objectIconSelector</extensionName>
+            <extensionName>objectIconSelector</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
@@ -927,7 +927,7 @@
         <allowPause>false</allowPause>
         <fields>
             <name>lwc_progress_8</name>
-            <extensionName>timeline:addChildObjectProgressBar</extensionName>
+            <extensionName>addChildObjectProgressBar</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>currentStep</name>
@@ -959,7 +959,7 @@
         </connector>
         <fields>
             <name>lwc_progress_7</name>
-            <extensionName>timeline:addChildObjectProgressBar</extensionName>
+            <extensionName>addChildObjectProgressBar</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>currentStep</name>
@@ -972,7 +972,7 @@
         </fields>
         <fields>
             <name>lwc_confirmation</name>
-            <extensionName>timeline:selectFieldsForConfig</extensionName>
+            <extensionName>selectFieldsForConfig</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>childObjectApiName</name>
@@ -1062,7 +1062,7 @@
         <allowPause>false</allowPause>
         <fields>
             <name>lwc_progress_7b</name>
-            <extensionName>timeline:addChildObjectProgressBar</extensionName>
+            <extensionName>addChildObjectProgressBar</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>currentStep</name>
@@ -1094,7 +1094,7 @@
         </connector>
         <fields>
             <name>lwc_progress_9</name>
-            <extensionName>timeline:addChildObjectProgressBar</extensionName>
+            <extensionName>addChildObjectProgressBar</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>currentStep</name>
@@ -1107,7 +1107,7 @@
         </fields>
         <fields>
             <name>lwc_external_key_field</name>
-            <extensionName>timeline:selectFieldsForConfig</extensionName>
+            <extensionName>selectFieldsForConfig</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>childObjectApiName</name>
@@ -1185,7 +1185,7 @@
         </fields>
         <fields>
             <name>set_external_key</name>
-            <extensionName>timeline:externalKeyField</extensionName>
+            <extensionName>externalKeyField</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
@@ -1215,7 +1215,7 @@
         </fields>
         <fields>
             <name>cmp_Verify_apex_class</name>
-            <extensionName>timeline:verifyApexProvider</extensionName>
+            <extensionName>verifyApexProvider</extensionName>
             <fieldType>ComponentInstance</fieldType>
             <inputParameters>
                 <name>selectedApexClass</name>
