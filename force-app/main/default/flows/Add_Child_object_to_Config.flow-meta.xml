@@ -374,43 +374,7 @@
         <connector>
             <targetReference>Is_SOQL_Verified</targetReference>
         </connector>
-        <fields>
-            <name>cmp_AddFilterCriteria</name>
-            <extensionName>addFilterToChildObject</extensionName>
-            <fieldType>ComponentInstance</fieldType>
-            <inputParameters>
-                <name>childObjectApiName</name>
-                <value>
-                    <elementReference>var_childObjectApiName</elementReference>
-                </value>
-            </inputParameters>
-            <inputParameters>
-                <name>objectApiName</name>
-                <value>
-                    <elementReference>var_objectApiName</elementReference>
-                </value>
-            </inputParameters>
-            <inputParameters>
-                <name>parentObjectRefName</name>
-                <value>
-                    <elementReference>var_parentRefFieldName</elementReference>
-                </value>
-            </inputParameters>
-            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
-            <isRequired>true</isRequired>
-            <outputParameters>
-                <assignToReference>var_IsSOQLVerified</assignToReference>
-                <name>isSoqlVerified</name>
-            </outputParameters>
-            <outputParameters>
-                <assignToReference>var_FilterJson</assignToReference>
-                <name>filterListJson</name>
-            </outputParameters>
-            <outputParameters>
-                <assignToReference>var_SOQLWhere</assignToReference>
-                <name>whereClause</name>
-            </outputParameters>
-        </fields>
+        
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
     </screens>
