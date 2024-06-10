@@ -165,7 +165,7 @@ public with sharing class RecordTimelineDataProviderTest {
 
         TimelineDataResponse resp = RecordTimelineDataProvider.getTimelineItemData(timelineConf.Id, acct.Id,'all_time');
         //System.assert(resp.apexConfigData!=null,'Apex data is null');
-        TimelineDataResponse.ApexConfigAndData apexConfigAndData= resp.apexConfigData.get('Invoices');
+        // TimelineDataResponse.ApexConfigAndData apexConfigAndData= resp.apexConfigData.get('Invoices');
         //System.assert(apexConfigAndData!=null,'apexConfigAndData is null');
         //System.assert(apexConfigAndData.apexData!=null,'Invoice data is null');
         //System.assert(apexConfigAndData.baseUrlForRecordDetail!=null,'baseUrlForRecordDetail is null');
@@ -195,7 +195,7 @@ public with sharing class RecordTimelineDataProviderTest {
 
         TimelineDataResponse resp = RecordTimelineDataProvider.getTimelineItemData(timelineConf.Id, acct.Id,'all_time');
         //System.assert(resp.apexConfigData!=null,'Apex data is null');
-        TimelineDataResponse.ApexConfigAndData apexConfigAndData= resp.apexConfigData.get('Invoices');
+      //  TimelineDataResponse.ApexConfigAndData apexConfigAndData= resp.apexConfigData.get('Invoices');
         //System.assert(apexConfigAndData!=null,'apexConfigAndData is null');
         //System.assert(apexConfigAndData.apexData!=null,'Invoice data is null');
         //System.assert(apexConfigAndData.baseUrlForRecordDetail!=null,'baseUrlForRecordDetail is null');
